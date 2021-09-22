@@ -8,12 +8,12 @@ import java.text.ParseException;
  */
 public class PaymentCalculator {
 
-    private float dailyRate;//i
+    private float monthyRate;//i
     private float balance;//b
     private float monthlyPayment;//p
 
-    public void setDailyRate(double APR) {
-        dailyRate = (float)APR/365;
+    public void setMonthyRate(double APR) {
+        monthyRate = (float)APR/12/100;
     }
     public void setBalance(float balance) throws ParseException {
         DecimalFormat df= new DecimalFormat("#.##");
@@ -23,14 +23,13 @@ public class PaymentCalculator {
         DecimalFormat df= new DecimalFormat("#.##");
         this.monthlyPayment = df.parse(df.format(monthlyPayment)).floatValue();
     }
-    public float calculateMonthsUntilPaidOff()
+    public int calculateMonthsUntilPaidOff()
     {
-        float first = -1/30;
-        float secondP1 = (balance/monthlyPayment );
-        float secondP2= (float) ((float) 1 - Math.pow(1 + (dailyRate),30));
-        float second = (float) Math.log10(Math.abs(1+secondP1 * secondP2));
-        float third = (float)Math.log10(1+(dailyRate));
-        return first*second/third;
+       double months = Math.log10(monthlyPayment/(monthlyPayment-(balance*monthyRate)))/Math.log10(1+monthyRate);
+       if(months-(int)months >0){
+           return (int)months+1;
+       }
+       else return (int)months;
     }
 
 }

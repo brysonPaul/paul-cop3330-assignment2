@@ -12,9 +12,9 @@ public class App
         PaymentCalculator p = new PaymentCalculator();
 
         p.setBalance(Float.parseFloat(strIO("What is your balance? ",sc)));
-        p.setDailyRate(Float.parseFloat(strIO("What is the APR on the card (as a percent)? ",sc)));
+        p.setMonthyRate(Float.parseFloat(strIO("What is the APR on the card (as a percent)? ",sc)));
         p.setMonthlyPayment(Float.parseFloat(strIO("What is the monthly payment you can make? ",sc)));
-        System.out.println("It will take you "+(float)p.calculateMonthsUntilPaidOff()+" months to pay off this card.");
+        System.out.println("It will take you "+p.calculateMonthsUntilPaidOff()+" months to pay off this card.");
 
     }
     public static String strIO(String input, Scanner sc){
