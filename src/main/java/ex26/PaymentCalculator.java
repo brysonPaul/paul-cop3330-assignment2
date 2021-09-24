@@ -31,5 +31,12 @@ public class PaymentCalculator {
        }
        else return (int)months;
     }
+    public PaymentCalculator(double APR,float balance, float monthlyPayment) throws ParseException {
+        setMonthyRate(APR);
+        setBalance(balance);
+        setMonthlyPayment(monthlyPayment);
+    }
+    public PaymentCalculator() {
 
+    }
 }

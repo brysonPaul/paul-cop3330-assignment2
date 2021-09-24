@@ -9,5 +9,8 @@
         <module name="paul-cop3330-assignment2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="paul-cop3330-assignment2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

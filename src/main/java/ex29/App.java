@@ -21,6 +21,12 @@ public class App {
             }
             break;
         }
+        int finalYears=yearsToDouble(r);
+
+        System.out.println("It will take "+ finalYears + " years to double your initial investment.");
+
+    }
+    public static int yearsToDouble (float r){
         float years=(float)72/r;
         int finalYears;
         if(years - (int)years !=0)
@@ -29,8 +35,7 @@ public class App {
         }
         else finalYears = (int)years;
 
-        System.out.println("It will take "+ finalYears + " years to double your initial investment.");
-
+        return finalYears;
     }
     public static String strIO(String input, Scanner sc){
         System.out.print(input);

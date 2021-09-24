@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45716168-86e9-4923-98a4-136dbf2fb6fd" name="Changes" comment="all code added, still need tests however">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex24/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex24/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex26/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex26/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex26/PaymentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex26/PaymentCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex27/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex27/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex28/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex28/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex29/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex29/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex31/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex31/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex32/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex32/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex34/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex34/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex35/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex35/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex37/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex37/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1yHIYSzi34Pt86OmU7PJOveFuDk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ex38" />
+      <recent name="ex36" />
+      <recent name="ex35" />
+      <recent name="ex34" />
+      <recent name="ex32" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex25" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ex38Test.filterEvenNumbers">
+    <configuration name="ex35Test.chooseWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex35.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex35" />
+      <option name="MAIN_CLASS_NAME" value="ex35.ex35Test" />
+      <option name="METHOD_NAME" value="chooseWinner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex36Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex36" />
+      <option name="MAIN_CLASS_NAME" value="ex36.ex36Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex36Test.average" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex36" />
+      <option name="MAIN_CLASS_NAME" value="ex36.ex36Test" />
+      <option name="METHOD_NAME" value="average" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex36Test.std" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex36" />
+      <option name="MAIN_CLASS_NAME" value="ex36.ex36Test" />
+      <option name="METHOD_NAME" value="std" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex38Test.filterEvenNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex38" />
+      <option name="MAIN_CLASS_NAME" value="ex38.ex38Test" />
+      <option name="METHOD_NAME" value="filterEvenNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ex38Test.filterEvenNumbers" />
+        <item itemvalue="JUnit.ex36Test" />
+        <item itemvalue="JUnit.ex36Test.std" />
+        <item itemvalue="JUnit.ex36Test.average" />
+        <item itemvalue="JUnit.ex35Test.chooseWinner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45716168-86e9-4923-98a4-136dbf2fb6fd" name="Changes" comment="" />
+      <created>1631902133690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631902133690</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added more">
+      <created>1632269889958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632269889958</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all code added, still need tests however">
+      <created>1632275098545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632275098545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added more" />
+    <MESSAGE value="all code added, still need tests however" />
+    <option name="LAST_COMMIT_MESSAGE" value="all code added, still need tests however" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ex29/ex29Test.java</url>
+          <line>9</line>
+          <properties class="ex29.ex29Test" method="yearsToDouble">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

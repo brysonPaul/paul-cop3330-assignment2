@@ -9,17 +9,18 @@ public class App {
         public static void main(String[] args){
             Scanner sc= new Scanner(System.in);
             ArrayList<String> names= new ArrayList<>();
-            String nameHold="e";
             do{
                 names.add(strIO("Enter a name: ",sc));
                 if(names.get(names.size()-1).equalsIgnoreCase("")){
                     break;
                 }
             } while(true);
-
             names.remove(names.size()-1);
+            System.out.println("The winner is... "+chooseWinner(names)+".");
+        }
+        public static String chooseWinner(ArrayList<String> names){
             int index= (int) ( (float)Math.random()*names.size() );
-            System.out.println("The winner is... "+names.get(index)+".");
+            return names.get(index);
         }
         public static String strIO(String input, Scanner sc){
             System.out.print(input);

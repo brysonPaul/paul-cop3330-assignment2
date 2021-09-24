@@ -37,10 +37,10 @@ public class App
                 char c2 = second.charAt(y);
                 if (c1 == c2) {
                     found = true;
+                    break;
                 }
             }
-            if(found != true)
-            {
+            if(!found) {
                 return false;
             }
         }

@@ -1,5 +1,6 @@
 package ex28;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -12,6 +13,7 @@ public class App
     {
         Scanner sc= new Scanner(System.in);
         int amtOfTimes= Integer.parseInt(strIO("How many numbers would you like to add? ",sc));
+        int[] nums=new int[amtOfTimes];
         int num=0,sum=0;
         for(int x=0;x<amtOfTimes;x++)
         {
@@ -21,10 +23,17 @@ public class App
             catch (Exception ex){
                 continue;
             }
-            sum+=num;
+            nums[amtOfTimes]=num;
         }
-
+        sum=sum(nums);
         System.out.println("The total is "+sum);
+    }
+    public static int sum(int[] nums){
+        int sum=0;
+        for(int x:nums){
+            sum+=x;
+        }
+        return sum;
     }
     public static String strIO(String input, Scanner sc){
         System.out.print(input);

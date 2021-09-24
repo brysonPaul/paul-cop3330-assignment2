@@ -22,31 +22,10 @@ public class App {
                 controller=true;
                 continue;
             }
-            switch(input){
-                case 1: randomVar = (int)((Math.random()*10)+1);
-                        break;
-                case 2: randomVar = (int)((Math.random()*100)+1);
-                        break;
-                case 3: randomVar =  (int)((Math.random()*1000)+1);
-            }
+            randomVar = createRandomVar(input);
+
             System.out.print("I have my number. What's your guess? ");
-            while(true){
-                try {
-                    guesses++;
-                    input = Integer.parseInt(sc.next());
-
-                    if (input == randomVar) {
-                        System.out.println("You got it in " + guesses + " guesses!");
-                        break;
-                    } else if (input > randomVar) {
-                        System.out.print("Too high. Guess again: ");
-                    } else System.out.print("Too low. Guess again: ");
-                }
-                catch (Exception ex){
-                    System.out.print("Guess again: ");
-
-                }
-            }
+            guessing(randomVar,sc);
             System.out.print("\nDo you wish to play again (Y/N)? ");
             String choice=sc.next();
             if(choice.equalsIgnoreCase("Y")){
@@ -57,5 +36,37 @@ public class App {
             }
         }while(controller);
 
+    }
+    public static int createRandomVar(int input){
+        int randomVar=0;
+        switch(input){
+            case 1: randomVar = (int)((Math.random()*10)+1);
+                break;
+            case 2: randomVar = (int)((Math.random()*100)+1);
+                break;
+            case 3: randomVar =  (int)((Math.random()*1000)+1);
+        }
+        return randomVar;
+    }
+    static void guessing(int randomVar,Scanner sc){
+        int guesses=0;
+        int input=0;
+        while(true){
+            try {
+                guesses++;
+                input = Integer.parseInt(sc.next());
+
+                if (input == randomVar) {
+                    System.out.println("You got it in " + guesses + " guesses!");
+                    break;
+                } else if (input > randomVar) {
+                    System.out.print("Too high. Guess again: ");
+                } else System.out.print("Too low. Guess again: ");
+            }
+            catch (Exception ex){
+                System.out.print("Guess again: ");
+
+            }
+        }
     }
 }

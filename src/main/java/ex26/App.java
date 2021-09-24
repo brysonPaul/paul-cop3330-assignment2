@@ -22,4 +22,5 @@ public class App
         String output = sc.nextLine();
         return output;
     }
+
 }

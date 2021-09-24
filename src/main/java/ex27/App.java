@@ -62,6 +62,9 @@ public class App
     static boolean isIDValid(String o) {
         char[] c= o.toCharArray();
         boolean cond;
+        if(c.length!=7){
+            return false;
+        }
         for(int x=0;x<c.length;x++){
             if(x<2){
                 cond=Character.isLetter(c[x]);

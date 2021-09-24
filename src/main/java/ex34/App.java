@@ -16,6 +16,11 @@ public class App {
             System.out.println(s);
         }
         String nameToRemove=strIO("\nEnter an employee name to remove: ",sc);
+
+        if(!isEmployee(ar,nameToRemove)){
+            System.out.println("That is not an employee.");
+            return;
+        }
         for(int x=0;x<ar.size();x++){
             if(ar.get(x).equalsIgnoreCase(nameToRemove))
             {
@@ -27,8 +32,13 @@ public class App {
                 return;
             }
         }
-        System.out.println("That is not an employee.");
 
+    }
+    public static boolean isEmployee(ArrayList<String> ar,String s){
+        for(String s1:ar){
+            if(s1.equalsIgnoreCase(s)) return true;
+        }
+        return false;
     }
     public static String strIO(String input, Scanner sc){
         System.out.print(input);
