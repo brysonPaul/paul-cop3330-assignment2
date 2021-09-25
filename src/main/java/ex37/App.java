@@ -38,20 +38,16 @@ public class App {
     public static ArrayList<Character> generatePass(int nums, int letters, int specials){
         ArrayList<Character> specChars= addSpecialChars();
         ArrayList<Character> password = new ArrayList<>();
-        System.out.println(nums+letters+specials);
         while(true){
             int rand= (int)(Math.random()*3);
 
             if(rand==0 && nums>0){
-                System.out.println("num");
                 nums--;
                 String ch= ""+(int)(Math.random()*10);
                 password.add( ch.toCharArray()[0]);
-
             }
             else if(rand==1 && letters>0)
             {
-                System.out.println("letters");
                 letters--;
                 int val=0;
                 if((int)(Math.random()*2)==1)
@@ -63,7 +59,6 @@ public class App {
                 password.add((char)letter);
             }
             else if(rand == 2 && specials>0){
-                System.out.println("specials");
                 specials--;
                 int chosen= (int)(Math.random()*specChars.size());
                 password.add(specChars.get(chosen));
@@ -112,6 +107,15 @@ public class App {
         System.out.print(input);
         String output = sc.nextLine();
         return output;
+    }
+    public static boolean isNumber(char c){
+        return Character.isDigit(c);
+    }
+    public static boolean isLetter(char c){
+        return Character.isLetter(c);
+    }
+    public static boolean isSpecialChar(char c){
+        return (!Character.isLetterOrDigit(c) && !Character.isSpaceChar(c));
     }
 }
 

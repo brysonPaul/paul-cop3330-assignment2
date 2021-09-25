@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45716168-86e9-4923-98a4-136dbf2fb6fd" name="Changes" comment="all code added, still need tests however">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex24/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex24/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex26/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex26/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex26/PaymentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex26/PaymentCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex27/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex27/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex28/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex28/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex29/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex29/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex31/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex31/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex32/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex32/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex34/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex34/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex35/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex35/App.java" afterDir="false" />
+    <list default="true" id="45716168-86e9-4923-98a4-136dbf2fb6fd" name="Changes" comment="3 more tests left then completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex37/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex37/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,33 +58,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ex40" />
+      <recent name="ex39" />
+      <recent name="ex37" />
       <recent name="ex38" />
       <recent name="ex36" />
-      <recent name="ex35" />
-      <recent name="ex34" />
-      <recent name="ex32" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ex25" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ex38Test.filterEvenNumbers">
-    <configuration name="ex35Test.chooseWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="paul-cop3330-assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex35.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex35" />
-      <option name="MAIN_CLASS_NAME" value="ex35.ex35Test" />
-      <option name="METHOD_NAME" value="chooseWinner" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ex40Test.findRelatedVals">
     <configuration name="ex36Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="paul-cop3330-assignment2" />
       <extension name="coverage">
@@ -118,33 +84,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex36Test.average" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ex37Test.generatePass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="paul-cop3330-assignment2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex36.*" />
+          <option name="PATTERN" value="ex37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex36" />
-      <option name="MAIN_CLASS_NAME" value="ex36.ex36Test" />
-      <option name="METHOD_NAME" value="average" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex36Test.std" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="paul-cop3330-assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex36.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex36" />
-      <option name="MAIN_CLASS_NAME" value="ex36.ex36Test" />
-      <option name="METHOD_NAME" value="std" />
+      <option name="PACKAGE_NAME" value="ex37" />
+      <option name="MAIN_CLASS_NAME" value="ex37.ex37Test" />
+      <option name="METHOD_NAME" value="generatePass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,13 +116,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex39Test.sortByLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex39.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex39" />
+      <option name="MAIN_CLASS_NAME" value="ex39.ex39Test" />
+      <option name="METHOD_NAME" value="sortByLastName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex40Test.findRelatedVals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paul-cop3330-assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex40" />
+      <option name="MAIN_CLASS_NAME" value="ex40.ex40Test" />
+      <option name="METHOD_NAME" value="findRelatedVals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ex40Test.findRelatedVals" />
+        <item itemvalue="JUnit.ex39Test.sortByLastName" />
+        <item itemvalue="JUnit.ex37Test.generatePass" />
         <item itemvalue="JUnit.ex38Test.filterEvenNumbers" />
         <item itemvalue="JUnit.ex36Test" />
-        <item itemvalue="JUnit.ex36Test.std" />
-        <item itemvalue="JUnit.ex36Test.average" />
-        <item itemvalue="JUnit.ex35Test.chooseWinner" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632275098545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3 more tests left then completed">
+      <created>1632523568192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632523568192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added more" />
     <MESSAGE value="all code added, still need tests however" />
-    <option name="LAST_COMMIT_MESSAGE" value="all code added, still need tests however" />
+    <MESSAGE value="3 more tests left then completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 more tests left then completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,6 +219,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ex39/ex39Test.java</url>
+          <line>12</line>
+          <properties class="ex39.ex39Test" method="sortByLastName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
